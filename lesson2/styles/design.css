@@ -1,0 +1,56 @@
+body {
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px auto;
+}
+
+.card {
+    width: 300px;
+    background-color: rgb(241, 241, 241);
+    border: 2px solid black;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#grid {
+    /* Flexbox option */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 5em;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 900;
+    line-height: .9em;
+}
+
+h3 {
+    font-weight: 500;
+    font-style: italic;
+    line-height: 0.1em;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    color: darkolivegreen;
+}
+
+img {
+    justify-items: center;
+    width: 100%;
+}
+
+#return_home {
+    text-align: center;
+}

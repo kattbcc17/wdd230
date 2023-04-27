@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Roboto&display=swap');
+body {
+    font-family: var(--heading-font);
+    margin: 0;
+}
+
+div {
+    margin: 10px;
+    flex: auto;
+}
+
+nav{
+    height: 35vh;
+    margin: 10%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.nombre{
+    color: white;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    min-height: 170px;
+    background-color: black;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    padding: 1px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 150px;
+    margin-right: 200px;
+}
+
+nav a:hover{
+    color: royalblue;
+}
+
+@media (max-width: 700px) {
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 0px;
+    }
+}
+
+
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="WDD 230 Portal" content="width=device-width, initial-scale=1.0">
+    <title>Portal Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Kalam&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/images/portal.jpg" alt="photo">
+            <h1 class="nombre">Kattia F. Contreras</h1>
+        </div>
+    </header>
+    
+    <nav>
+        <h2>WDD 230: Assignment Portal</h2>
+        <ul onscroll="scrollDown(this)">
+        <li>Lesson 02: <a href="/lesson2/design-principles.html" class="nav-link">Design Principles</a></li>
+        <li>Lesson 03: <a href="./" class="nav-link">Title</a></li>
+        <li>Lesson 04: <a href="./" class="nav-link">Title</a></li>
+        <li>Lesson 05: <a href="./" class="nav-link">Title</a></li>
+        <li>Lesson 06: <a href="./" class="nav-link">Title</a></li>
+        <li>Lesson 07: <a href="./" class="nav-link">Title</a></li>
+        <li>Lesson 08: <a href="./" class="nav-link">Title</a></li>
+        <li>Lesson 09: <a href="./" class="nav-link">Title</a></li>
+        <li>Lesson 10: <a href="./" class="nav-link">Title</a></li>
+        <li>Lesson 11: <a href="./" class="nav-link">Title</a></li>
+        </ul>
+    </nav>
+    <div id="scroll-down" class="up">↓ Scroll Down ↓</div>
+</body>
+   
+
+    <footer>
+        &copy; 2023 | Kattia F. Contreras | Ecuador <br>
+        Last Updated: <span id="lastUpdated"></span>
+    </footer>
+    <script>
+        let lastUpdated = new Date(document.lastModified);
+        document.getElementById("lastUpdated").innerHTML = lastUpdated;
+    </script>
+</html> 
