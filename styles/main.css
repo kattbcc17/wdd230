@@ -1,17 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Roboto&display=swap');
+* {
+    box-sizing: border-box;
+  } 
 body {
     font-family: var(--heading-font);
     margin: 0;
 }
 
 div {
-    margin: 10px;
+    margin: 50px;
     flex: auto;
 }
 
 nav{
     height: 35vh;
     margin: 10%;
+    margin: 100px 50px 100px 50px;
 }
 
 a{
@@ -19,15 +23,20 @@ a{
     color: black;
 }
 
-.nombre{
+#name {
+    text-align: center;
     color: white;
-}
+    font-size: 40px;
+    
+  }
 
 footer {
     background-color: gray;
     color: white;
     padding: 10px;
     text-align: center;
+    margin: 25px 50px 75px 50px;
+    border-radius: 5px;
 }
 
 header {
@@ -38,6 +47,8 @@ header {
     margin: auto;
     align-items: center;
     padding: 1px;
+    margin: 25px 50px 50px 50px;
+    border-radius: 5px;
 }
 
 .logo {
@@ -48,6 +59,9 @@ header {
 .logo img{
     height: 150px;
     margin-right: 200px;
+    display: block;
+    margin-left: 20px;
+    margin-right: 150px;
 }
 
 nav a:hover{
@@ -64,5 +78,16 @@ nav a:hover{
     }
 }
 
+a:visited {color:#0000ff;}
+a:hover {font-family:monospace;}
+
+h2 {
+    font-size: 40px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+li {
+    font-size: 18px;
+}
 
 

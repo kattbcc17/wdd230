@@ -1,15 +1,46 @@
+* {
+    box-sizing: border-box;
+  }
+
 body {
     margin: auto;
-    font-family: 'Montserrat', sans-serif;
-    margin: 10px auto;
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    background-color: black;
 }
 
-.card {
-    width: 300px;
-    background-color: rgb(241, 241, 241);
-    border: 2px solid black;
-    margin: 0 auto;
-    padding: 10px;
+.card1 {
+    margin: 50px;
+    background-color: rgb(129, 25, 25);
+    width: 320px;
+    padding: 5px 10px 10px 10px;
+    border: 5px solid rgb(129, 25, 25);;
+    border-radius: 10px;
+    color: white;
+    overflow: scroll;
+    
+}
+
+.card2 {
+    margin: 50px;
+    background-color: rgb(129, 25, 25);
+    width: 320px;
+    padding: 5px 10px 0 10px;
+    border: 5px solid rgb(129, 25, 25);
+    border-radius: 10px;
+    color: white;
+}
+
+.card3 {
+    margin: 50px;
+    background-color: rgb(129, 25, 25);
+    width: 320px;
+    padding: 5px 10px 10px 10px;
+    border: 5px solid rgb(129, 25, 25);;
+    border-radius: 10px;
+    color: white;
+    overflow: scroll;
+    
 }
 
 #grid {
@@ -19,11 +50,15 @@ body {
     gap: 25px;
     max-width: 1200px;
     margin: auto;
+
 }
 
 h1 {
     font-size: 5em;
     text-align: center;
+    color: white;
+    text-decoration-line: overline;
+    text-decoration-color: rgb(129, 25, 25);
 }
 
 h2 {
@@ -43,7 +78,7 @@ p {
 
 a {
     text-decoration: none;
-    color: darkolivegreen;
+    color: rgb(240, 169, 54);
 }
 
 img {
@@ -52,5 +87,25 @@ img {
 }
 
 #return_home {
+    /* border-right: 6px solid red; */
+    background-color: rgb(129, 25, 25);
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    margin-left: 50px;
+    
+}
+
+a:hover {font-size:150%;}
+ 
+.header {
+    padding: 20px;
     text-align: center;
 }
+
+img {
+    border-radius: 8px;
+  }
+
