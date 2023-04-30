@@ -41,6 +41,7 @@ footer {
 
 header {
     display: flex;
+    align-content: space-around;
     min-height: 170px;
     background-color: black;
     justify-content: space-between;
