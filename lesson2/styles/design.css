@@ -1,6 +1,12 @@
 * {
     box-sizing: border-box;
+    justify-items: center;
+    align-items: baseline
   }
+
+/* @media only screen and (min-width: 65em){
+
+} */
 
 body {
     margin: auto;
@@ -45,11 +51,13 @@ body {
 
 #grid {
     /* Flexbox option */
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    /* flex-wrap: wrap;
     gap: 25px;
     max-width: 1200px;
-    margin: auto;
+    margin: auto; */
 
 }
 
@@ -117,3 +125,14 @@ footer {
     margin: 25px 50px 75px 50px;
     border-radius: 5px;
 }
+
+
+/* @media only screen and (min-width: 32.5em) {
+
+    #grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+} */
+
