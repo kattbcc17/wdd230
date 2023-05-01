@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Roboto&display=swap');
 * {
-    font-family: 'Gugi';
-}
+    box-sizing: border-box;
+  } 
+
 html {
     background-color: rgb(0, 0, 0);
     display: grid;
@@ -10,6 +12,7 @@ html {
     align-items: center;
     height: 100%;
 }
+
 body {
     border-radius: 5px;
     min-height: 406px;
@@ -17,6 +20,8 @@ body {
     width: 70%;
     max-width: 700px;
     background-color: white;
+    font-family: var(--heading-font);
+    margin: 0;
 }
 header {
     padding: 2.5em;
@@ -48,7 +53,7 @@ h2 {
     border-bottom: solid 1px #cccccc;
     margin-bottom: 0;
     width: 95%;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 2px 2px 4px #360404;
 }
 ul {
     margin: 0;
@@ -67,13 +72,13 @@ a {
 }
 
 a:hover {
-    color: rgb(72, 14, 14);
+    color: rgb(235, 30, 30);
 }
 a:active {
     color: tomato;
 }
 footer {
-    background-color: rgb(72, 14, 14);seagreen;
+    background-color: rgb(210, 143, 143);
     position: relative;
     color: white;
     padding: 1em;
@@ -90,7 +95,7 @@ footer a:hover {
     text-shadow: 1px 1px 10px lightblue;
 }
 #updated {
-    color: lightblue;
+    color: rgb(45, 55, 59);
     font-size: 12px;
 }
 #not-reasonable-size {
@@ -101,6 +106,7 @@ footer a:hover {
 }
 .rul1 {
     display: inline;
+    
 }
 
 
@@ -128,6 +134,8 @@ footer a:hover {
     background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-    background-color: rgb(72, 14, 14);seagreen;
+    background-color: rgb(72, 14, 14);
     border-radius: 5px;
 }
+
+a:hover {font-family:monospace;}

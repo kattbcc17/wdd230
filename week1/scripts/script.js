@@ -1,16 +1,8 @@
-WebFont.load({
-    google: {
-        families: [
-            'Gugi'
-        ]
-    }
-})
-
 
 // Set the year for copyright
 document.getElementById("year").innerHTML = new Date().getFullYear()
 
-// Set the date when last updated
+// Set date when last updated
 var temp = document.lastModified
 var n = parseInt(temp.substring(temp.length-8,temp.length-6))
 if (n>12) {
