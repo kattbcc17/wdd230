@@ -13,4 +13,8 @@
     p {
         font-size: 14px;
     }
+
+    body {
+        width: 90%;
+    }
 }
