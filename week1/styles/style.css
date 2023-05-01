@@ -24,6 +24,7 @@ body {
     margin: 0;
 }
 header {
+    border-radius: 5px;
     padding: 2.5em;
     display: grid;
     position: relative;
