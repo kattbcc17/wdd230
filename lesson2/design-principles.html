@@ -7,17 +7,19 @@
     <link href="https://fonts.googleapis.com/css?family=Kalam&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="styles/design.css">
-    <link rel="stylesheet" href="styles/large.css">
-    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/medium.css" media="(max-width: 894px) and (min-width: 650px)">
+    <link rel="stylesheet" href="styles/small.css" media="(max-width: 649px)">
     <title>Design Principles Document</title>
 </head>
 <body>
     <header class="header">
         <h1>Design Principles</h1>
+        <span>Kattia Contreras</span>
     </header>
-    <main id="grid">
-        <div class="card1">
+    <main>
+        <section>
             <h2>Visual Hierarchy</h2>
+            <div>
             <h3>Netflix</h3>
             <img src="images/screen1.png" width="80%" height="65%" alt="Netflix screenshot">
             <p>
@@ -32,9 +34,11 @@
                 impact on user experience (UX).
             </p>
             <a target="_blank" href="https://www.Netflix.com/">Netflix.com</a>
-        </div>
-        <div class="card2">
+            </div>
+        </section>
+        <section>
             <h2>Proximity</h2>
+            <div>
             <h3>Banana Republic</h3>
             <img src="images/screen2.png" width="80%" height="65%" alt="Banana screenshot">
             <p>
@@ -43,9 +47,11 @@
                 one of the products in the middle. The logo and menu are grouped together.
             </p>
             <a target="_blank" href="https://bananarepublic.gap.com/">Bananarepublic.gap.com</a>
-        </div>
-        <div class="card3">
+            </div>
+        </section>
+        <section>
             <h2>Contrast</h2>
+            <div>
             <h3>Mysa Skincare</h3>
             <img src="images/screen.png" width="80%" height="65%" alt="Mysa screenshot">
             <p>
@@ -57,7 +63,8 @@
                 items with the proper labels. The website uses subtle animation and transitional elements as well, yet they aren't overused or distracting.
             </p>
             <a target="_blank" href="https://mysa-skincare.com/">Mysa-skincare.com</a>
-        </div>
+            </div>
+        </section>
     </main>
     <footer>
         &copy; 2023 | Kattia F. Contreras | Ecuador<br>
@@ -68,5 +75,6 @@
         document.getElementById("lastUpdated").innerHTML = lastUpdated;
     </script>
     <p id="return_home"><a href="/index.html">Return to Course Portal</a></p>
+    <script src="scripts/dates.js"></script>
 </body>
 </html>

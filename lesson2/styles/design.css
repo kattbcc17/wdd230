@@ -2,19 +2,20 @@
     box-sizing: border-box;
   }
 
-/* @media only screen and (min-width: 65em){
-
-} */
-
-body {
-    margin: auto;
-    font-family: "Times New Roman", Times, serif;
-    margin: 0;
-    background-color: rgb(73, 69, 69);
-    padding: .5rem;
+html {
+    background-color: black;
 }
 
-.card1 {
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: "Times New Roman", Times, serif;
+    background-color: rgb(6, 5, 5);
+    padding: 0.75rem;
+}
+
+
+/* .card1 {
     margin: 50px;
     background-color: rgb(129, 25, 25);
     width: 320px;
@@ -24,9 +25,9 @@ body {
     color: white;
     overflow: scroll;
     
-}
+} */
 
-.card2 {
+/* .card2 {
     margin: 50px;
     background-color: rgb(129, 25, 25);
     width: 320px;
@@ -34,9 +35,9 @@ body {
     border: 5px solid rgb(129, 25, 25);
     border-radius: 10px;
     color: white;
-}
+} */
 
-.card3 {
+/* .card3 {
     margin: 50px;
     background-color: rgb(129, 25, 25);
     width: 320px;
@@ -46,22 +47,22 @@ body {
     color: white;
     overflow: scroll;
     
-}
+} */
 
-#grid {
+/* #grid { */
     /* Flexbox option */
-    display: grid;
+    /* display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     justify-items: center;
-    margin: 5%;
+    margin: 5%; */
     
     /* flex-wrap: wrap;
     gap: 25px;
     max-width: 1200px;
     margin: auto; */
 
-}
+/* } */
 
 h1 {
     font-size: 5em;
@@ -69,17 +70,29 @@ h1 {
     color: white;
     text-decoration-line: overline;
     text-decoration-color: rgb(129, 25, 25);
+    margin-bottom: 0.25em;
+}
+
+header > span {
+    font-size: medium;
+    color: rgb(255, 255, 255);
 }
 
 h2 {
     font-weight: 900;
     line-height: .9em;
+    color: white;
 }
 
 h3 {
     font-weight: 500;
     font-style: italic;
     line-height: 0.1em;
+    margin: 0;
+    padding: 10px;
+    background: rgb(228, 96, 96);
+    color: white;
+    border-radius: 10px;
 }
 
 p {
@@ -108,12 +121,54 @@ img {
     
 }
 
+section > div {
+    padding: 0 10px;
+}
+section > div > span {
+    display: block;
+}
+section > div > * {
+    font-size: 1.05em;
+}
+section img {
+    width: calc(100% - 2px);
+    display: block;
+    margin: 0 auto;
+    border: solid 1px gray;
+    max-width: 320px;
+}
+
 a:hover {font-size:150%;}
  
-.header {
-    padding: 1rem;
-    justify-content: center;
+header {
     text-align: center;
+    background-color: rgb(129, 25, 25);
+    border-radius: 0 0 10px 10px;
+    color: white;
+    padding: 1em;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    width: 95%;
+    margin: 20px auto;
+    color: white;
+    width: 880px;
+    padding: 5px 10px 10px 10px;
+    border: 2px solid rgb(129, 25, 25);;
+    border-radius: 15px;
+    color: white;
+}
+
+section {
+    border-radius: 10px;
+    background-color: rgb(129, 25, 25);
+    border: solid 15px rgb(129, 25, 25);
+}
+section * {
+    font-family: 'Ubuntu', sans-serif;
 }
 
 img {
@@ -123,10 +178,11 @@ img {
 footer {
     background-color: rgb(129, 25, 25);
     color: white;
-    padding: 10px;
+    padding: 1em;
     text-align: center;
-    margin: 25px 50px 75px 50px;
-    border-radius: 5px;
+    margin: 0 auto;
+    border-radius: 10px 10px 10px 10px;
+
 }
 
 
