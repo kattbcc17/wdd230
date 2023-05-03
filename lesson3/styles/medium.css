@@ -1,0 +1,19 @@
+:root {
+    --main-color: #141b2a;
+    --secondary-color: #b93619;
+    --accent-color: #fff293;
+    --default-light: #ffffff;
+    --default-dark: #000000;
+
+    --header-font: 'Exo 2', sans-serif;
+    --paragraph-font: 'Comfortaa', sans-serif;
+}
+
+body {
+    grid-template-columns: auto 90% auto;
+}
+
+
+#typo-wrapper {
+    grid-template-columns: 1fr 1fr;
+}
