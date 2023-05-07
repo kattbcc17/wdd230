@@ -16,7 +16,7 @@ html { background-color: var(--main-color); }
 body {
     margin: 0;
     display: grid;
-    grid-template-columns: auto 100% auto;
+    grid-template-columns: auto 80% auto;
     
 }
 body > * {

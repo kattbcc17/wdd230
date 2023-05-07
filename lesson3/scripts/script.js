@@ -1,1 +1,2 @@
-document.getElementsByClassName('last-updated')[0].innerHTML = "Last Updated: "+document.lastModified
+document.getElementById("year").innerHTML = new Date().getFullYear()
+document.getElementById("lst-updt").innerHTML = "Last updated: "+document.lastModified
