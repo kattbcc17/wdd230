@@ -10,32 +10,97 @@
                     as well as the domain name that I researched for possibilities.">
     <link rel="images" href="images/logoweb.png" type="logoImg">
     <link rel="stylesheet" href="styles/style.css">    
-    <link rel="stylesheet" href="styles/normalize.css">
+    <!-- <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/medium.css" media="(max-width: 950px)">
         <link rel="stylesheet" href="styles/small.css" media="(max-width: 640px)">
-        <link rel="stylesheet" href="styles/x-small.css" media="(max-width: 299px)">           
+        <link rel="stylesheet" href="styles/x-small.css" media="(max-width: 299px)">            -->
 </head>
 <body>
-
+    <div id="header">
+      <div class="first-grd">
+        <div>
+            <div class="header-grd-left">
+                <div><span class="h-folow">Follow Us: </span></div>
+                <div><a href="https://www.facebook.com/JRVVB?fref=ts" target="_blank"><img src="https://jrvchamber.com/wp-content/themes/aika/images/fb.svg"></a></div>
+                <div><a href="https://www.pinterest.com/jaybeeyell/" target="_blank"><img src="https://jrvchamber.com/wp-content/themes/aika/images/pin.svg"></a></div>
+                <div><a href="https://instagram.com/juniata_river_valley/" target="_blank"><img src="https://jrvchamber.com/wp-content/themes/aika/images/ins.svg"></a></div>
+            </div>
+        </div>
+        <div>
+            <div class="header-grd-right">
+                <div><a class="call-btn" href="tel:0982648734">Call us at: 09 826 487 34</a></div>
+                <div><a class="intro-btn" href="./index.html">Back to Intro</a>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="logo">
+          <a href="./index.html">Sambo Chamber</a> 
     
-    <header>
-        <h1>Sambo Chamber</h1>
-        <span>Quality and Integrity</span>
-    </header>
-    <nav>
-        <ul>
-            <li><a class="at" href=".">Home</a></li>
-            <li><a class="" href="./target-audience.html">Target Audience</a></li>
-            <li><a class="" href="./color-scheme.html">Color Scheme</a></li>
-            <li><a class="" href="./typography.html">Typography</a></li>
-        </ul>
-    </nav>
-    <main>
+        </div>  
+        <nav>
+          <form class="search" action="search.php"> 
+            <input name="q" placeholder="Search..." type="search">
+          </form>
+          <ul>
+            <li>
+              <a href="./index.html">Home</a>
+            </li>
+            <li>
+              <a href="./target-audience.html">Target Audience</a>
+              <ul class="mega-dropdown">
+                <li class="row">
+                  <ul class="mega-col">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Contact</a></li>
+                  </ul>
+                  <ul class="mega-col">
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Services</a></li>
+                  </ul>
+                  <ul class="mega-col">
+                    <li><a href="#">Coming Soon</a></li>
+                    <li><a href="#">404 Error</a></li>
+                    <li><a href="#">Search</a></li>
+                    <li><a href="#">Author Page</a></li>
+                  </ul>
+                  <ul class="mega-col">
+                    <li><a href="#">Full Width</a></li>
+                    <li><a href="#">Right Column</a></li>
+                    <li><a href="#">Left Column</a></li>
+                    <li><a href="#">Maintenance</a></li>
+                  </ul>
+                </li>
+              </ul>        
+            </li>
+            <li class="dropdown">
+              <a href="./color-scheme.html">Color Scheme</a>
+                <ul>
+                  <li><a href="#">About Version</a></li>
+                  <li><a href="#">About Version</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>        
+            </li>
+            <li>
+              <a href="./typography.html">Typography</a>
+            </li>
+            <li>
+              <a href="">Team</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <main>
         <section>
             <h2>Domain Name</h2>
             <p>
                 The domain name I found that was available is
-                <a class="domain" target="_blank" href="https://domains.google.com/registrar/search?hl=en_US&authuser=1&searchTerm=sambochamber.com&tab=0&pli=1">sambochamber.org</a>
+                <a class="domain" target="_blank" href="https://domains.google.com/registrar/search?hl=en_US&authuser=1&searchTerm=sambochamber.com&tab=0&pli=1">sambochamber.com</a>
             </p>
             <p>
                 The domain name of <a class="domain" href="#">sambochamber.com</a>
@@ -60,12 +125,12 @@
                 </p>
             </div>
         </section>
+        <p id="return_home"><a href="/index.html">Return to Course Portal</a></p>
     </main>
     <footer>
-        &copy;<span id="year"></span> | Kattia F. Contreras | Ecuador
-        <span id="lst-updt"></span>
-    </footer>
-    <p id="return_home"><a href="/index.html">Return to Course Portal</a></p>
-    <script src="scripts/script.js"></script>
+      &copy;<span id="year"></span> | Kattia F. Contreras | Ecuador
+      <span id="lst-updt"></span>
+  </footer>
+  <script src="scripts/script.js"></script>
 </body>
 </html>

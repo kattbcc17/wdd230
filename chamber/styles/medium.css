@@ -1,0 +1,132 @@
+/* Reset styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* your styles for medium screens go here */
+    body {
+    font-size: 16px;
+    }
+    header {
+    height: 80px;
+    }
+    .promo {
+    padding: 20px;
+    }
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Header styles */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+}
+
+nav img {
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    font-weight: bold;
+} */
+
+.login-btn {
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+/* Main content styles */
+main {
+    margin-top: 80px;
+    padding: 40px;
+}
+
+hr.spacing-med {
+    margin: 40px 0;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+iframe {
+    margin-bottom: 40px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.promo {
+    flex-basis: 60%;
+}
+
+.h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: var(--accent-color);
+    border: none;
+    border-radius: 3px;
+    color: #030303;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+.promo-img {
+    flex-basis: 40%;
+}
+
+.promo-img img {
+    border-radius: 3px;
+} 
+
+
+
