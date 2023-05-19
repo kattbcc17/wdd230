@@ -32,7 +32,6 @@ header, main, footer {
 header, footer {
     background-color: var(--main-color);
     color: var(--default-light);
-    border-radius: 0.60em;
 }
 
 header, footer {
