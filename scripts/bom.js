@@ -7,13 +7,13 @@ String.prototype.capitalize = function() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    // Find the input
+    // Find input
     const input = document.querySelector("input");
     // Find button
     const button = document.querySelector("button");
-    // Find the main div element
+    // Find main div element
     const list = document.querySelector("ul");
-    // Add click event
+    // Add click 
     button.addEventListener("click", () => {
         // Validate input content
         if(input.value.trim() === "") { return; }
