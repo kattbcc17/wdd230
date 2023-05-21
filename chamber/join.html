@@ -1,0 +1,189 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us</title>
+
+    <link rel="icon" href="../lesson3/images/logoweb.png">
+
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <script src="scripts/index.js"></script>
+</head>
+<body>
+    <!-- still need to create css for secondary links -->
+    <header>
+
+        <div id="header-content">
+            <div id="logo-section">
+                <img src="images/website-logo2.png" alt="logo" id="header-logo">
+                <section id="name-section">
+                    <h1>Samborondon</h1>
+                    <h2>Chamber of Commerce</h2>
+                </section>
+            </div>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li class="nav-item"><a id="menu" href="#"></a></li>
+                    <li class="nav-item"><a href="./index.html">Home</a></li>
+                    <li class="nav-item"><a href="./discovery.html">Discover</a></li>
+                    <li class="nav-item"><a href="./directory.html">Directory</a></li>
+                    <li class="nav-item"><a href="./join.html">Join</a></li>
+                    <li class="nav-item"><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div id="social-div">
+                <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook" class="social"></a>
+                <a href="https://www.linkedin.com/feed/"><img src="images/linkedin.png" alt="linkedin" class="social"></a>
+            </div>
+            <div id="date-section">
+                <p>Generic date</p>
+            </div>
+        </div>
+
+    </header>
+
+    <main id="join-main">
+
+        <h2>Join Us Now!</h2>
+
+        <div id="join-main-content">
+
+            <form action="thankyou.html" method="get">
+
+                <div>
+                    <label for="first-name" class="form-label">First name:</label>
+                    <input type="text" name="first-name" id="first-name" required>
+                </div>
+    
+                <div>
+                    <label for="last-name" class="form-label">Last name:</label>
+                    <input type="text" name="last-name" id="last-name" required>
+                </div>
+    
+                <div>
+                    <label for="business-title" class="form-label">Business position:</label>
+                    <input type="text" name="business-title" id="business-title" pattern="[A-Za-z\s-]{7,}">
+                </div>
+    
+                <div>
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="example@email.com" required>
+                </div>
+    
+                <div>
+                    <label for="cell-phone" class="form-label">Cell phone number:</label>
+                    <input type="tel" name="cell-phone" id="cell-phone" required>
+                </div>
+    
+                <div>
+                    <label for="business-name" class="form-label">Business name:</label>
+                    <input type="text" name="business-name" id="business-name" required>
+                </div>
+    
+                <div>
+                    <label for="membership" class="form-label">Membership:</label>
+                    <select name="membership" id="membership">
+                        <option value="">-- Please select a membership level --</option>
+                        <option value="np">NP (Non profit organization)</option>
+                        <option value="bronze">Bronze Membership</option>
+                        <option value="silver">Silver Membership</option>
+                        <option value="gold">Gold Membership</option>
+                    </select>
+                </div>
+    
+                <div id="description-div">
+                    <label for="description" class="form-label">Business description:</label>
+                    <textarea type="textarea" name="description" id="description" rows="5" placeholder="Describe your business..."></textarea>
+                </div>
+    
+                <div>
+                    <input type="datetime" name="date-time" id="date-time" hidden>
+                </div>
+    
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+    
+            </form>
+    
+            <div id="memberships-div">
+    
+                <div class="membership-info" id="np-meembership">
+                    <h4>Basic Membership - Free</h4>
+                    <ul class="membership-benefits">
+                        <li>Basic directory listing</li>
+                        <li>Event announcements</li>
+                        <li>Member referral program</li>
+                    </ul>
+                </div>
+    
+                <div class="membership-info" id="bronce-membership">
+                    <h4>Bronce membership - $10/month</h4>
+                    <ul class="membership-benefits">
+                        <li>Weekly email newsletter</li>
+                        <li>Enhanced directory listing</li>
+                        <li>Get latest intelligence</li>
+                    </ul>
+                </div>
+    
+                <div class="membership-info" id="silver-membership">
+                    <h4>Silver membership - $20/month</h4>
+                    <ul class="membership-benefits">
+                        <li>Access to chamber virtual events</li>
+                        <li>Marketing and advertising</li>
+                        <li>Access to exclusive benefits</li>
+                    </ul>
+                </div>
+    
+                <div class="membership-info" id="gold-membership">
+                    <h4>Gold membership</h4>
+                    <ul class="membership-benefits">
+                        <li>Featured business profile</li>
+                        <li>Exclusive networking benefits</li>
+                        <li>Customized business support</li>
+                        <li>Access to discounts</li>
+                    </ul>
+                </div>
+    
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+        <div id="footer-content">
+
+            <div id="footer-top-content">
+                <img src="../lesson3/images/logoweb.png" alt="logo" id="footer-logo">
+                <h4>Samborondon Chamber of Commerce</h4>
+                <p>123 Main Street</p>
+                <p>Samborondon, Ecuador</p>
+                <p>info@sambochamber.org</p>
+                <p>+(593) 982 648-734</p>
+                <p>📍 Location Map</p>
+            </div>
+
+            <hr>
+
+            <div id="footer-bottom-content">
+                <div id="info">
+                    <p>© Samborondon Chamber</p>
+                    <p><strong>Kattia Contreras</strong></p>
+                    <p>WDD 230</p>
+                </div>
+                <p id="lastModified"></p>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+</html>
