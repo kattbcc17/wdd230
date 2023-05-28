@@ -9,7 +9,7 @@
 
     <link rel="icon" href="../lesson3/images/logoweb.png">
 
-    <link href="https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="styles/large.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -26,8 +26,7 @@
 
         <div id="header-content">
             <div id="logo-section">
-                <!-- <img src="images/website-logo2.png" alt="logo" id="header-logo"> -->
-                <img src="images/wdd230-org.jpg" alt="hero image" srcset="images/hero-small.jpg 768w, images/hero-medium.jpg 1024w, images/hero-large.jpg 1200w" sizes="100vw">
+                <img src="images/website-logo2.png" alt="logo" id="header-logo">
                 <section id="name-section">
                     <h1>Samborondon</h1>
                     <h2>Chamber of Commerce</h2>
@@ -59,7 +58,9 @@
         <section id="hero-section" class="home-section">
             <h2>Samborondon Chamber</h2>
             <picture>
-                <img src="images/sambo.jpeg" alt="city image">
+                <source srcset="images/hero-medium.jpg" media="(min-width: 500px) and (max-width: 799px)" >
+                <source srcset="images/hero-large.jpg" media="(min-width: 800px)" >
+                <img src="images/hero-small.jpg" alt="hero img">
             </picture>
             
             <button><a href="./join.html">Join the Chamber</a></button>
