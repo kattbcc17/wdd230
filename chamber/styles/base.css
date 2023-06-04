@@ -4,61 +4,60 @@
     --accent-color: #fff293;
     --default-light: #ffffff;
     --default-dark: #000000;
-}    
-
-@media (min-width: 1000px) {
-
-  #home-main {
+  }
+  
+  @media (min-width: 1000px) {
+    #home-main {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       grid-template-rows: auto auto 1fr;
       grid-gap: 1em;
-  }
-
-  #event-section {
+    }
+  
+    #event-section {
       grid-column: 1;
       grid-row: 1;
-  }
-
-  #weather-section {
+    }
+  
+    #weather-section {
       grid-column: 1;
       grid-row: 2;
-  }
-
-  #join-section {
+    }
+  
+    #join-section {
       grid-column: 1;
       grid-row: 3;
-  }
-
-  #hero-section {
+    }
+  
+    #hero-section {
       grid-column: 2/4;
       grid-row: 1/3;
-  }
-
-  #about {
+    }
+  
+    #about {
       grid-column: 2/4;
       grid-row: 3;
-  }
-
-  #spotlight-section {
+    }
+  
+    #spotlight-section {
       grid-column: 4;
       grid-row: 1/4;
-  }
-
-  #spotlilght-section .spotlight:nth-child(3) {
+    }
+  
+    #spotlight-section .spotlight:nth-child(3) {
       display: block;
-  }
-
-  #header-content {
+    }
+  
+    #header-content {
       display: grid;
       grid-template-columns: auto 1fr auto;
       grid-template-rows: repeat(2, auto);
       grid-row-gap: 1em;
       grid-column-gap: 2em;
       place-items: center;
-  }
-
-  #logo-section {
+    }
+  
+    #logo-section {
       grid-row: 1;
       grid-column: 1;
       display: flex;
@@ -66,94 +65,94 @@
       gap: 1em;
       align-items: center;
       justify-content: center;
-  }
-
-  #logo-section h1 {
+    }
+  
+    #logo-section h1 {
       font-size: 2.75em;
-  }
-
-  #logo-section h2 {
+    }
+  
+    #logo-section h2 {
       font-size: 2em;
-  }
-
-  #header-logo {
+    }
+  
+    #header-logo {
       max-width: 100px;
       height: auto;
-  }
-
-  .navbar {
+    }
+  
+    .navbar {
       grid-row: 1;
       grid-column: 2;
       width: 100%;
       height: 40px;
-  }
-
-  .nav-links {
+    }
+  
+    .nav-links {
       height: 100%;
       align-items: center;
-  }
-
-  .nav-item a {
+    }
+  
+    .nav-item a {
       padding: 0.75em;
-  }
-
-  .nav-links .nav-item:first-child {
+    }
+  
+    .nav-links .nav-item:first-child {
       display: none;
-  }
-
-  #social-div {
+    }
+  
+    #social-div {
       grid-row: 1;
       grid-column: 3;
       display: flex;
       flex-flow: row nowrap;
       gap: 0.5em;
       align-items: center;
-  }
-
-  #date-section {
+    }
+  
+    #date-section {
       grid-column: 1/4;
       grid-row: 2;
-  }
-
-  #footer-bottom-content p {
+    }
+  
+    #footer-bottom-content p {
       margin: 0;
-  }
-
-  #footer-bottom-content {
+    }
+  
+    #footer-bottom-content {
       display: flex;
       flex-flow: row wrap;
       gap: 0.5em;
       justify-content: center;
-  }
-
-  #info {
+    }
+  
+    #info {
       display: flex;
       flex-flow: row nowrap;
       gap: 0.5em;
-  }
-
-  #info p:first-child::after, #info p:nth-child(2)::after, #info p:nth-child(3)::after {
+    }
+  
+    #info p:first-child::after,
+    #info p:nth-child(2)::after,
+    #info p:nth-child(3)::after {
       content: " |";
-  }
-
-  /* Discovery page */
-  #discovery-pics {
+    }
+  
+    /* Discovery page */
+    #discovery-pics {
       display: grid;
-      grid-template-columns: repeat(3, minmax(100px, 1fr));
-      grid-template-rows: repeat(2, 1fr);
       gap: 1em;
-  }
-
-  /* Directory styles */
-
-  #directory {
+    }
+  
+    /* Directory styles */
+  
+    #directory {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(3, 1fr);
       grid-gap: 1em;
-  }
-
-  .card {
+    }
+  
+    .card {
       display: flex;
       flex-direction: column;
       gap: 0.5em;
@@ -161,27 +160,50 @@
       background-color: var(--secondary-bk-color);
       border: 1px solid black;
       padding: 1em;
-  }
-
-  .card img {
+    }
+  
+    .card img {
       height: 100px;
       max-width: 125px;
       width: auto;
-  }
-
-  .card-body {
+    }
+  
+    .card-body {
       display: flex;
       flex-direction: column;
       gap: 0.25em;
       align-items: center;
-  }
-
-  /* Join page */
-
-  #join-main-content {
+    }
+  
+    /* Join page */
+  
+    #join-main-content {
       display: flex;
       flex-direction: row;
       gap: 1em;
       justify-content: space-evenly;
+    }
+  
+    #discovery-info {
+      background-color: white;
+    }
+  
+    #discovery-pics picture.in {
+      animation: img-come-in 1s;
+      transform: scale(1);
+    }
+  
+    #discovery-pics picture img {
+      display: block;
+      border-radius: 10px;
+      box-shadow: 1px 1px 3px var(--default-dark), inset 0 0 3px var(--default-dark);
+      padding: 0.5em;
+      border-radius: 10px;
+    }
+  
+    #discovery-pics picture:hover {
+      transform: translate(-6px, -6px);
+      box-shadow: 6px 6px 12px var(--default-dark), inset 0 0 3px var(--default-dark);
+    }
   }
-} 
+  

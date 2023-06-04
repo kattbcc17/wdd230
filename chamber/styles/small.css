@@ -357,7 +357,6 @@ hr {
 /* Discovery page */
 
 #discovery-info {
-    background-color: var(--secondary-color);
     display: flex;
     padding: 1em;
     flex-direction: column;
@@ -377,7 +376,6 @@ hr {
 
 #discovery-pics {
     margin-top: 1em;
-    background-color: var(--secondary-color);
     padding: 1em;
 }
 

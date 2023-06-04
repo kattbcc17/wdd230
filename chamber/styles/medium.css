@@ -170,8 +170,13 @@
         grid-template-rows: repeat(3, 1fr);
         gap: 1em;
         margin-top: 1em;
-        background-color: var(--secondary-color);
+        background-color: white;
         padding: 1em;
+        
+    }
+
+    #discovery-info {
+        background-color: white;
     }
 
     /* Join us page */
