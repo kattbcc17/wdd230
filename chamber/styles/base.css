@@ -157,7 +157,7 @@
       flex-direction: column;
       gap: 0.5em;
       align-items: center;
-      background-color: var(--secondary-bk-color);
+      background-color: var(--secondary-color);
       border: 1px solid black;
       padding: 1em;
     }
