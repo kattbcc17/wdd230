@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Ubuntu:wght@300&display=swap');
+
+/* Custom properties */
+:root {
+    --main-bk-color: #082234;
+    --secondary-bk-color: #fff4f4;
+    --main-font-color: white;
+    --secondary-font-color: rgba(0, 255, 234, 0.734);
+    --title-font-family: 'Ubuntu';
+    --main-font-family: 'Roboto Mono';
+    /* Table properties */
+    --main-th-bk: black;
+    --secondary-th-bk: #555555;
+    --border: #555555;
+    --zebra: #eeeeee;
+}
+
+body {
+    font-family: var(--main-font-family), monospace, sans-serif;
+}
+
+header, main, footer {
+    margin: 0 auto;
+    margin-top: 1em;
+    width: 40%;
+}
+
+header, footer {
+    background-color: var(--main-bk-color);
+    color: var(--main-font-color);
+    border-radius: 1.75em;
+}
+
+header, footer {
+    padding: 0.5em 0;
+}
+
+main {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    background-color: var(--secondary-bk-color);
+    padding: 1em;
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--title-font-family), sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+footer h4 {
+    color: var(--secondary-font-color);
+}
+
+table {
+    border: thin solid var(--border);
+    border-collapse: collapse;
+}
+
+caption {
+    caption-side: bottom;
+    font-size: 0.8em;
+}
+
+td {
+    padding: 0.5em 2em;
+    text-align: center;
+}
+
+th {
+    color: white;
+    text-align: center;
+    padding: 0.75em 2em;
+}
+
+thead :first-child {
+    background-color: var(--main-th-bk);
+}
+
+thead :nth-child(2) {
+    background-color: var(--secondary-th-bk);
+}
+
+tbody * {
+    border: thin solid var(--border);
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--zebra);
+}
