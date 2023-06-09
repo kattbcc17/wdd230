@@ -29,7 +29,7 @@ header, main, footer {
 header, footer {
     background-color: var(--main-bk-color);
     color: var(--main-font-color);
-    border-radius: 1.75em;
+    border-radius: 1em;
 }
 
 header, footer {
