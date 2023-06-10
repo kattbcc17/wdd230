@@ -406,7 +406,6 @@ picture {
 /* Join page */
 #join-main {
     padding: 1em;
-    background-color: var(--secondary-color);
 }
 
 #join-main h2 {
@@ -512,8 +511,8 @@ button[type=submit]:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--secondary-color);
-    padding: 1em;
+    background-color: var(--default-light);
+    padding: 2em;
 }
 
 #thank-you-main p {
