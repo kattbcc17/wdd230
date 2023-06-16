@@ -11,7 +11,7 @@
   }
 
 body {
-    font-family: var(--main-font-family), monospace, sans-serif;
+    font-family: sans-serif;
 }
 
 header, main, footer {
@@ -21,7 +21,7 @@ header, main, footer {
 
 header, footer {
     background-color: var(--main-color);
-    color: var(--main-font-color);
+    color: var(--main-color);
     border-radius: 1em;
 }
 
