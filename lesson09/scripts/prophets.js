@@ -76,7 +76,7 @@ function displayProphets(prophets) {
         cardbody.setAttribute("class", "card-body");
 
         // Build the h2 content out to show the prophet's full name - finish the template string
-        h2.textContent = `${prophet.name} ${prophet.lastname} - ${toOrdinalString(number + 1)} Latter-day President`;
+        h2.textContent = `${prophet.name} ${prophet.lastname} - ${toOrdinalString(number + 1)} Latter-day President`; // Stretch challenge
         h2.setAttribute("class", "card-title");
     
         // Build the image portrait by setting all the relevant attribute
