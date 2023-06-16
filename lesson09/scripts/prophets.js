@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
         getProphetData().then(prophets => displayProphets(prophets));
     });
 
-    // decade filter
+    // decade filter : help code from CHAT GPT
     document.querySelector("#decade-filter").addEventListener("click", () => {
         // Clear cards
         cards.innerHTML = "";
