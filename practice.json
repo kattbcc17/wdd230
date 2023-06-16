@@ -1,0 +1,19 @@
+[
+    {
+    "nombre" : "Kattia",
+    "lastname" : "Contreras",
+    "age" : 23, 
+    "schools" : ["BYU",
+                "BYUI", 
+                "Mchnooth"]
+    },
+
+    {
+        "nombre" : "Shey",
+        "lastname" : "Lee",
+        "age" : 20, 
+        "schools" : ["Hardvard",
+                    "Yale", 
+                    "BYU"]
+        }
+]
