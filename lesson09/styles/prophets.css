@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Ubuntu:wght@300&display=swap');
+
+/* Custom properties */
+:root {
+    --main-color: #1b2846;
+    --secondary-color: #b93619;
+    --accent-color: #fff293;
+    --default-light: #ffffff;
+    --default-dark: #000000;
+  }
+
+body {
+    font-family: var(--main-font-family), monospace, sans-serif;
+}
+
+header, main, footer {
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+header, footer {
+    background-color: var(--main-color);
+    color: var(--main-font-color);
+    border-radius: 1em;
+}
+
+header h1 {
+    color: #ffffff;
+}
+
+footer h3 {
+    color: #ffffff;
+}
+header, footer {
+    padding: 0.5em 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    background-color: var(--default-light);
+    padding: 1em;
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--default-light), sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+footer h4 {
+    color: var(--default-light);
+}
+
+/* Card styles */
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 1em;
+}
+
+.card {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0.5em;
+    align-items: flex-start;
+    border: 1px solid lightgray;
+    border-radius: 1em;
+    max-width: 340px;
+}
+
+.card img {
+    width: 340px;
+    height: 440px;
+    border-radius: 1em 1em 0 0;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    padding: 0.75em;
+}
+
+.card-title {
+    text-align: left;
+}
+
+.card-text {
+    padding: 0;
+    margin: 0;
+}
+
+.filters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1em;
+}
+
+.filter {
+    font-size: 1.25em;
+    border-radius: 1em;
+    padding: 0.5em;
+}
+
+.filter:hover {
+    background-color: #fff4f4;
+}
