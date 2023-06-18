@@ -145,12 +145,12 @@
   
     /* Directory styles */
   
-    #directory {
+    /* #directory {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(3, 1fr);
       grid-gap: 1em;
-    }
+    } */
   
     .card {
       display: flex;
@@ -206,4 +206,5 @@
       box-shadow: 6px 6px 12px var(--default-dark), inset 0 0 3px var(--default-dark);
     }
   }
+  
   

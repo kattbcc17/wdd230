@@ -1,0 +1,68 @@
+{
+  "directory" : [
+      {
+          "business" : "Aleman Humboldt High School",
+          "address" : "Jose Olmedo 584",
+          "phone" : "+593 98 264 8734",
+          "email" : "humboldt@gmail.com",
+          "logo" : "images/directory-1.png",
+          "membership" : "gold"
+      },
+      {
+          "business" : "Cevicheria Pez Azul",
+          "address" : "10 de Noviembre",
+          "phone" : "+593 98 264 8734",
+          "email" : "humboldt@gmail.com",
+          "logo" : "images/directory-2.png",
+          "membership" : "gold"
+      },
+      {
+          "business" : "Barcelona Sporting Club",
+          "address" : "Av 9 de Octubre",
+          "phone" : "+593 98 264 8734",
+          "email" : "humboldt@gmail.com",
+          "logo" : "images/directory-3.png",
+          "membership" : "silver"
+      },
+      {
+          "business" : "Supermaxi",
+          "address" : "Ciudad Celeste",
+          "phone" :"+593 98 264 8734",
+          "email" : "humboldt@gmail.com",
+          "logo" : "images/directory-4.png",
+          "membership" : "silver"
+      },
+      {
+          "business" : "Donna",
+          "address" : "Carlos Arosemena 53",
+          "phone" : "+593 98 264 8734",
+          "email" : "humboldt@gmail.com",
+          "logo" : "images/directory-5.png",
+          "membership" : "free"
+      },
+      {
+          "business" : "Star Ribs",
+          "address" : "Av Perigrini 13",
+          "phone" : "+593 98 264 8734",
+          "email" : "humboldt@gmail.com",
+          "logo" : "images/directory-6.png",
+          "membership" : "bronze"
+      },
+      {
+          "business" : "Tia",
+          "address" : "Lousine Jose 89",
+          "phone" : "+593 98 264 8734",
+          "email" : "humboldt@gmail.com",
+          "logo" : "images/directory-7.png",
+          "membership" : "bronze"
+      },
+      {
+          "business" : "Pharmacy's",
+          "address" : "Av Curacao 353",
+          "phone" : "+593 98 264 8734",
+          "email" : "humboldt@gmail.com",
+          "logo" : "images/directory-8.png",
+          "membership" : "gold"
+      }
+  ]
+}
