@@ -36,7 +36,7 @@ function getWindChill(temperature, windSpeed) {
 
 document.addEventListener("DOMContentLoaded", () => {
     // API url
-    const url = "http://api.openweathermap.org/data/2.5/weather?q=guayaquil&units=metric&appid=9d7e1fcd9eae7ca223af22e3110735d5";
+    const url = "https://api.openweathermap.org/data/2.5/weather?q=guayaquil&units=metric&appid=9d7e1fcd9eae7ca223af22e3110735d5";
     // Fetch API and display
     apiFetch(url).then(data => displayResults(data));
     // Get temperature value
