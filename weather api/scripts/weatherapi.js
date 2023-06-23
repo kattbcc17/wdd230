@@ -6,6 +6,7 @@ const captionDesc = document.querySelector('figcaption');
 // API URL
 const url = 'https://api.openweathermap.org/data/2.5/weather?q=guayaquil&units=metric&appid=9d7e1fcd9eae7ca223af22e3110735d5';
 
+
 // defined asynchronous function to fetch weather data
 async function apiFetch() {
   try {
