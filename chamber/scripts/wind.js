@@ -36,7 +36,7 @@ function getWindChill(temperature, windSpeed) {
 
 document.addEventListener("DOMContentLoaded", () => {
     // API url
-    const url = "https://api.openweathermap.org/data/2.5/weather?q=Quilmes&units=metric&appid=51c9e7e908aa3baccb967c02e9950992";
+    const url = "https://api.openweathermap.org/data/2.5/weather?q=rexburg&units=imperial&appid=5446be76d7c7bdd03fa8dc5f3a9eddb6";
     // Fetch API and display
     apiFetch(url).then(data => displayResults(data));
     // Get temperature value
@@ -76,6 +76,7 @@ async function apiFetch(url) {
     }
     return data;
 }
+
 
 /**
  * Properly displays the weather info
