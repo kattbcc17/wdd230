@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Foods</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+    
+    <header>
+        
+        <nav class="navbar">
+            <ul class="nav-links">
+                <img id="logo" src="images/logo.png" alt="logo">
+                <li class="nav-item"><a href="./index.html">Home</a></li>
+                <li class="nav-item"><a href="./fresh.html">Fresh</a></li>
+                <li class="nav-item"><a href="./about.html">About Us</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main id="about-main">
+
+        <h1>About us</h1>
+
+        <h1>Our food production is one of the most popular in Carlsbad, California.</h1>
+                <p style="text-align: justify;">Once upon a time, two girls named Emilia and Laura were dedicated to living a 
+                healthy lifestyle and consuming fresh, natural products. They observed a void in the market for
+                a local juice bar that offered truly fresh and organic options, so they decided to fill it.
+                Emilia and Laura combined their resources and founded a modest juice bar in 
+                Carlsbad, California, in 2010. They collected the freshest fruits and vegetables from 
+                local farms and crafted delicious and nutritious juice blends. The community's response was amazing, 
+                and their juice bar immediately became a neighborhood favorite.
+                As their business expanded, Emilia and Laura decided to add smoothies, acai bowls, and other healthy snacks to their menu. 
+                They also pledged to be environmentally friendly, utilizing eco-friendly packaging and collaborating with local organizations 
+                to prevent food waste.
+                Over a decade later, Emilia and Laura's juice bar has become a Carlsbad institution. They have many sites throughout the city 
+                and a devoted following of clients who value their devotion to health, sustainability, and community involvement.
+                </p>
+        <section>
+ 
+            <div>
+            <h2>Our Office</h2>
+            <p>5781 Van Allen Way, Carlsbad, CA</p>
+            <p>Monday - Friday</p>
+            <p>09:00 am - 07:00 pm</p>
+            <p>530 345 67890</p>
+            <p>organic.food@bountifood.org</p>
+            </div>
+    
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3340.866800302735!2d-117.28839052469564!3d33.13886376540678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc7373e4d98ff3%3A0x8b4811b34c5cbca1!2s5781%20Van%20Allen%20Way%2C%20Carlsbad%2C%20CA%2092008%2C%20USA!5e0!3m2!1sen!2sec!4v1689811936789!5m2!1sen!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+    </main>
+
+    <footer>
+        <div id="footer-info">
+            <p>© Bountiful Foods | <strong>Kattia Contreras</strong> | WDD 230 Final Project</p>
+        </div>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script>
+        // Date object
+        const dateObj = new Date();
+        // Last modified paragraph
+        const lastModified = document.querySelector("#lastModified");
+        // Full year paragraph
+        const fullYear = document.querySelector("#footer-info p:first-child");
+
+        // Add last modified
+        lastModified.innerText = `Last modified: ${document.lastModified}`;
+
+        // Add full year after © symbol
+        const index = fullYear.innerText.indexOf("©");
+        const str = fullYear.innerText.slice(0, index + 1).concat(dateObj.getFullYear());
+        fullYear.innerText = str.concat(fullYear.innerText.slice(index + 1));
+    </script>
+
+</body>
+</html>

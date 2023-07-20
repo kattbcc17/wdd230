@@ -1,0 +1,223 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+    --font-color: black;
+}
+
+body {
+    font-family:"Open Sans",sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+/* Navbar styles */
+
+#logo {
+    max-height: 100px;
+    max-height: 100px;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-item a {
+    text-decoration: none;
+    display: block;
+    color: var(--font-color);
+    font-size: 1.25em;
+    padding: 0.25em 1em;
+}
+
+.nav-item a:hover {
+    border: 1px solid rgb(138, 163, 138);
+    box-shadow: 5px 5px 5px rgb(111, 130, 117);
+}
+
+/* Main section */
+
+main {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 1em;
+    grid-template-rows: repeat(2, auto);
+    justify-items: center;
+    width: 80%;
+}
+
+#call-to-action {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+}
+
+#call-to-action picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#call-to-action button {
+    position: relative;
+    top: -5em;
+    left: 2em;
+    border: none;
+    background-color: rgb(71, 93, 76);
+    border-radius: 1em;
+    font-size: 1.25em;
+}
+
+button a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 0.25em 1em;
+    font-family: "Open Sans",sans-serif;
+}
+
+#weather-section {
+    background-color: rgb(111, 129, 115);
+    color: white;
+    padding: 1em;
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#weather-section p {
+    margin: 0;
+}
+
+.img1 {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.img1:hover {
+    transform: scale(1.1);
+    }
+
+#weather-description {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#about-carlsbad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(230, 244, 232);
+    padding: 1em;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+    background-color: rgb(111, 129, 115);
+    color: white;
+    padding: 1em;
+}
+
+#contact p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Footer styles */
+
+footer {
+    width: 95%;
+    margin: 2em auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Form */
+
+#fresh-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.input-div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.1em;
+}
+
+.input-div * {
+    width: 400px;
+    margin: 0;
+}
+
+input, textarea, select {
+    padding: 0.25em 0.5em;
+}
+
+#about-main {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+#about-main * {
+    margin: 0;
+}
+
+#about-main section {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+}
+
+#about-main section div {
+    display: flex;
+    flex-direction: column;
+}
+
+iframe {
+    height: 300px;
+}
+
+
+

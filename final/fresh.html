@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="scripts/fruits.js"></script>
+
+</head>
+<body>
+    
+    <header class="header">
+        <nav class="navbar">
+            <img id="logo" src="images/logo.png" alt="logo">
+            <ul class="nav-links">
+                <li class="nav-item"><a href="./index.html">Home</a></li>
+                <li class="nav-item"><a href="./fresh.html">Fresh</a></li>
+                <li class="nav-item"><a href="./about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="fresh-main">
+        <h1>Order Fresh Juice</h1>
+        <form action="">
+            <div class="input-div">
+                <label for="first-name">First name</label>
+                <input type="text" name="first-name" id="first-name">
+            </div>
+            <div class="input-div">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="input-div">
+                <label for="phone">Phone</label>
+                <input type="tel" name="phone" id="phone">
+            </div>
+            <div class="input-div">
+                <label for="fruit-1">Choose your first fruit</label>
+                <select name="fruit-1" id="fruit-1">
+                    <!-- Populate options using JavaScript if needed -->
+                </select>
+            </div>
+            <div class="input-div">
+                <label for="fruit-2">Choose your second fruit</label>
+                <select name="fruit-2" id="fruit-2">
+                    <!-- Populate options using JavaScript if needed -->
+                </select>
+            </div>
+            <div class="input-div">
+                <label for="fruit-3">Choose your third fruit</label>
+                <select name="fruit-3" id="fruit-3">
+                    <!-- Populate options using JavaScript if needed -->
+                </select>
+            </div>
+            <div class="input-div">
+                <textarea name="extra" id="" cols="40" rows="5" placeholder="Add any extra instructions"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+
+        <div id="form-result">
+            <!-- Show form submission result here -->
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div id="footer-info">
+            <p>© Bountiful Foods | <strong>Kattia Contreras</strong> | WDD 230 Final Project</p>
+        </div>
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+</html>

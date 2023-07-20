@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Foods</title>
+
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="scripts/index.js"></script>
+
+</head>
+<body>
+    
+    <header>
+
+        <nav class="navbar">
+            <ul class="nav-links">
+                <img id="logo" src="images/logo.png" alt="logo">
+                <li class="nav-item"><a href="./index.html">Home</a></li>
+                <li class="nav-item"><a href="./fresh.html">Fresh</a></li>
+                <li class="nav-item"><a href="./about.html">About Us</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+    
+
+        <div id="call-to-action">
+
+            <picture>
+                <source media="(min-width: 768px)" srcset="images/banner.png">
+                <source media="(max-width: 767px)" srcset="images/banner-small.png">
+                <img src="images/banner-large.png" alt="banner">
+            </picture>
+
+            <button><a href="./fresh.html">Make your own fresh drink!</a></button>
+
+        </div>
+
+        <section id="weather-section">
+            <h2>Our current weather</h2>
+            <div id="weather-card">
+                <div id="weather-description">
+                    <img id="weather-icon" src="" alt="weather">
+                    <span></span>
+                </div>
+                <p>Temperature: <span id="temperature"></span> C</p>
+                <p>Humidity: <span id="humidity"></span> %</p>
+            </div>
+        </section>
+
+        <section id="about-carlsbad">
+            
+            <p style="text-align: justify;">Welcome to Bountiful Foods, your one-stop destination for 
+                fresh and organic delights! Founded in Carlsbad, California, by two health-conscious 
+                visionaries, Emilia and Laura, our journey began with a mission to provide the community
+                with truly nourishing options. From vibrant juices to wholesome smoothies and delectable
+                acai bowls, our menu is a celebration of nature's bounty. Committed to sustainability, 
+                we source the freshest fruits and vegetables from local farms, ensuring every sip and 
+                bite is packed with goodness. As we grow, so does our dedication to being eco-friendly,
+                using sustainable packaging, and working hand in hand with local organizations to 
+                minimize food waste. Join us in this health-conscious adventure, where taste, wellness, 
+                and community thrive together. Experience the difference at Bountiful Foods today!
+            </p>
+
+        </section>
+
+        <section id="contact">
+
+            <h2>Our Office</h2>
+            <p>5781 Van Allen Way, Carlsbad, CA</p>
+            <p>Monday - Friday</p>
+            <p>09:00 am - 07:00 pm</p>
+            <p>530 345 67890</p>
+            <p>organic.food@bountifood.org</p>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div id="footer-info">
+            <p>© Bountiful Foods | <strong>Kattia Contreras</strong> | WDD 230 Final Project</p>
+        </div>
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+</html>
